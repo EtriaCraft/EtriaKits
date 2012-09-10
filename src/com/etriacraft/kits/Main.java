@@ -20,7 +20,7 @@ public class Main extends JavaPlugin {
     
     public static final Logger log = Logger.getLogger("Minecraft");
     public TreeMap<String, Kit> kits = new TreeMap();
-    public static final String prefix = "[Kits] ";
+    public static final String prefix = "[EtriaKits] ";
     Methods methods;
 
     @Override

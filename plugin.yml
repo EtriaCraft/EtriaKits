@@ -1,8 +1,13 @@
-name: Kits
+name: EtriaKits
 main: com.etriacraft.kits.Main
 version: 1.0
 author: MistPhizzle
 commands:
   kit:
     description: The only command you need!
-    usage: /<command> [kit] [info|player]
+    usage: /<command> [kit] [info|player|reload]
+permissions:
+  kit.reload:
+    description: Allows use of the /kit reload
+  kit.bypass:
+    description: Bypasses cooldowns, infinite # of kit uses.

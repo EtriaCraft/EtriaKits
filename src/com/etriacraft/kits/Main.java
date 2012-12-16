@@ -89,7 +89,6 @@ public class Main extends JavaPlugin {
                 return true;
             }
 
-            if (!(s instanceof Player)) return false;
             if (!kits.containsKey(args[0].toLowerCase())) {
                 s.sendMessage("§cThat kit does not exist");
                 return true;
